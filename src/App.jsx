@@ -15,9 +15,9 @@ export default function App() {
       <Loader />
         <Canvas shadows camera={{ position: [0, 0, 20], fov:40 }}>
           <color attach="background" args={['grey']} />
-          <Suspense fallback={null}>
+          {/* <Suspense fallback={null}>
           <F150 scale={2.7} position={[0, -1.1, 0]} />
-          </Suspense>
+          </Suspense> */}
           <hemisphereLight intensity={0.5} />
           <ContactShadows resolution={1024} frames={1} position={[0, -1.16, 0]} scale={15} blur={0.5} opacity={0.5} far={20} />
           <mesh scale={4} position={[3, -1.161, -1.5]} rotation={[-Math.PI / 2, 0, Math.PI / 2.5]}>
