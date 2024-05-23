@@ -339,4 +339,4 @@ console.log()
   )
 }
 
-
+useGLTF.preload('/models/F150.glb')
