@@ -320,7 +320,7 @@ console.log()
       <mesh geometry={nodes.black_matt_08_pivot.geometry} material={materials.black_matt} />
       <mesh geometry={nodes.black_matt_09_pivot.geometry} material={materials.black_matt} />
       <mesh geometry={nodes.Body.geometry}>
-        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
           <canvasTexture
             flipY={false}
             wrapS={1000}
